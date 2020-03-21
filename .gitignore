@@ -1,3 +1,7 @@
+# file: ~/.gitignore_global
+.DS_Store
+.idea
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +131,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.idea/.gitignore
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/artifacts
+.idea/misc.xml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/*.iml
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
